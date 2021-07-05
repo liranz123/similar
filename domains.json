@@ -1,0 +1,404 @@
+{
+    "similarweb.com": {
+      "subject": [
+        [
+          [
+            "commonName",
+            "similarweb.com"
+          ]
+        ]
+      ],
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "Amazon"
+          ]
+        ],
+        [
+          [
+            "organizationalUnitName",
+            "Server CA 1B"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "Amazon"
+          ]
+        ]
+      ],
+      "version": 3,
+      "serialNumber": "0A61EA0B8AD0F90C13A084B73D527437",
+      "notBefore": "Nov  3 00:00:00 2020 GMT",
+      "notAfter": "Dec  2 23:59:59 2021 GMT",
+      "subjectAltName": [
+        [
+          "DNS",
+          "similarweb.com"
+        ],
+        [
+          "DNS",
+          "*.similarweb.com"
+        ]
+      ],
+      "OCSP": [
+        "http://ocsp.sca1b.amazontrust.com"
+      ],
+      "caIssuers": [
+        "http://crt.sca1b.amazontrust.com/sca1b.crt"
+      ],
+      "crlDistributionPoints": [
+        "http://crl.sca1b.amazontrust.com/sca1b.crl"
+      ]
+    },
+    "kubernetes.io": {
+      "subject": [
+        [
+          [
+            "commonName",
+            "kubernetes.io"
+          ]
+        ]
+      ],
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "Let's Encrypt"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "R3"
+          ]
+        ]
+      ],
+      "version": 3,
+      "serialNumber": "035788583E34BF3FB7EBC276ED521C24A27D",
+      "notBefore": "May 23 21:01:10 2021 GMT",
+      "notAfter": "Aug 21 21:01:10 2021 GMT",
+      "subjectAltName": [
+        [
+          "DNS",
+          "kubernetes.io"
+        ],
+        [
+          "DNS",
+          "www.kubernetes.io"
+        ]
+      ],
+      "OCSP": [
+        "http://r3.o.lencr.org"
+      ],
+      "caIssuers": [
+        "http://r3.i.lencr.org/"
+      ]
+    },
+    "amazon.com": {
+      "subject": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "stateOrProvinceName",
+            "Washington"
+          ]
+        ],
+        [
+          [
+            "localityName",
+            "Seattle"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "Amazon.com, Inc."
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "*.peg.a2z.com"
+          ]
+        ]
+      ],
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "DigiCert Inc"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "DigiCert Global CA G2"
+          ]
+        ]
+      ],
+      "version": 3,
+      "serialNumber": "052FAAFB2484474DC7C3AF1063698A78",
+      "notBefore": "Nov 26 00:00:00 2020 GMT",
+      "notAfter": "Nov 24 23:59:59 2021 GMT",
+      "subjectAltName": [
+        [
+          "DNS",
+          "amazon.co.uk"
+        ],
+        [
+          "DNS",
+          "uedata.amazon.co.uk"
+        ],
+        [
+          "DNS",
+          "www.amazon.co.uk"
+        ],
+        [
+          "DNS",
+          "origin-www.amazon.co.uk"
+        ],
+        [
+          "DNS",
+          "*.peg.a2z.com"
+        ],
+        [
+          "DNS",
+          "amazon.com"
+        ],
+        [
+          "DNS",
+          "amzn.com"
+        ],
+        [
+          "DNS",
+          "uedata.amazon.com"
+        ],
+        [
+          "DNS",
+          "us.amazon.com"
+        ],
+        [
+          "DNS",
+          "www.amazon.com"
+        ],
+        [
+          "DNS",
+          "www.amzn.com"
+        ],
+        [
+          "DNS",
+          "corporate.amazon.com"
+        ],
+        [
+          "DNS",
+          "buybox.amazon.com"
+        ],
+        [
+          "DNS",
+          "iphone.amazon.com"
+        ],
+        [
+          "DNS",
+          "yp.amazon.com"
+        ],
+        [
+          "DNS",
+          "home.amazon.com"
+        ],
+        [
+          "DNS",
+          "origin-www.amazon.com"
+        ],
+        [
+          "DNS",
+          "origin2-www.amazon.com"
+        ],
+        [
+          "DNS",
+          "buckeye-retail-website.amazon.com"
+        ],
+        [
+          "DNS",
+          "huddles.amazon.com"
+        ],
+        [
+          "DNS",
+          "amazon.de"
+        ],
+        [
+          "DNS",
+          "www.amazon.de"
+        ],
+        [
+          "DNS",
+          "origin-www.amazon.de"
+        ],
+        [
+          "DNS",
+          "amazon.co.jp"
+        ],
+        [
+          "DNS",
+          "amazon.jp"
+        ],
+        [
+          "DNS",
+          "www.amazon.jp"
+        ],
+        [
+          "DNS",
+          "www.amazon.co.jp"
+        ],
+        [
+          "DNS",
+          "origin-www.amazon.co.jp"
+        ],
+        [
+          "DNS",
+          "*.aa.peg.a2z.com"
+        ],
+        [
+          "DNS",
+          "*.ab.peg.a2z.com"
+        ],
+        [
+          "DNS",
+          "*.ac.peg.a2z.com"
+        ],
+        [
+          "DNS",
+          "origin-www.amazon.com.au"
+        ],
+        [
+          "DNS",
+          "www.amazon.com.au"
+        ],
+        [
+          "DNS",
+          "*.bz.peg.a2z.com"
+        ],
+        [
+          "DNS",
+          "amazon.com.au"
+        ],
+        [
+          "DNS",
+          "origin2-www.amazon.co.jp"
+        ]
+      ],
+      "OCSP": [
+        "http://ocsp.digicert.com"
+      ],
+      "caIssuers": [
+        "http://cacerts.digicert.com/DigiCertGlobalCAG2.crt"
+      ],
+      "crlDistributionPoints": [
+        "http://crl3.digicert.com/DigiCertGlobalCAG2.crl",
+        "http://crl4.digicert.com/DigiCertGlobalCAG2.crl"
+      ]
+    },
+    "github.com": {
+      "subject": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "stateOrProvinceName",
+            "California"
+          ]
+        ],
+        [
+          [
+            "localityName",
+            "San Francisco"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "GitHub, Inc."
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "github.com"
+          ]
+        ]
+      ],
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "DigiCert, Inc."
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "DigiCert High Assurance TLS Hybrid ECC SHA256 2020 CA1"
+          ]
+        ]
+      ],
+      "version": 3,
+      "serialNumber": "0E8BF3770D92D196F0BB61F93C4166BE",
+      "notBefore": "Mar 25 00:00:00 2021 GMT",
+      "notAfter": "Mar 30 23:59:59 2022 GMT",
+      "subjectAltName": [
+        [
+          "DNS",
+          "github.com"
+        ],
+        [
+          "DNS",
+          "www.github.com"
+        ]
+      ],
+      "OCSP": [
+        "http://ocsp.digicert.com"
+      ],
+      "caIssuers": [
+        "http://cacerts.digicert.com/DigiCertHighAssuranceTLSHybridECCSHA2562020CA1.crt"
+      ],
+      "crlDistributionPoints": [
+        "http://crl3.digicert.com/DigiCertHighAssuranceTLSHybridECCSHA2562020CA1.crl",
+        "http://crl4.digicert.com/DigiCertHighAssuranceTLSHybridECCSHA2562020CA1.crl"
+      ]
+    },
+    "catchme.me": ""
+  }
