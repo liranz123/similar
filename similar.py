@@ -35,9 +35,9 @@ def func(domain, file, allowed):
     final.append(diff)
 
     if allowed < diff:
-        final.append('True')
-    else:
         final.append('False')
+    else:
+        final.append('True')
 
     print(final)
 
