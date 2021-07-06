@@ -1,6 +1,5 @@
 import json, datetime, time, dateutil
-#from dateutil import parser
-from datetime import datetime
+from datetime import datetime # just for checking that you dont need to write the full path of the class
 
 def func(domain, file, allowed):
 
