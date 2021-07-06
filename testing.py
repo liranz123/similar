@@ -2,7 +2,7 @@ import json, datetime, time, dateutil
 from dateutil import parser
 from datetime import datetime, timedelta
 
-def func(file, domain, allowed):
+def func(domain, file, allowed):
 
     f = open(file)
     data = json.load(f)
@@ -20,4 +20,4 @@ def func(file, domain, allowed):
     print(diff/3600/24) 
 
 if __name__ == '__main__':
-    func('domains.json', 'similarweb.com', 30)
+    func('amazon.com', 'domains.json', 30)

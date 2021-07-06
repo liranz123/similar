@@ -2,22 +2,17 @@ import json, datetime, time, dateutil
 from dateutil import parser
 from datetime import datetime, timedelta
 
-def func(file, domain, allowed):
+def func(domain, file, allowed):
 
     f = open(file)
     data = json.load(f)
-    starts = data['similarweb.com']['notBefore']
-    ends = data['similarweb.com']['notAfter']
 
-    starts = starts.replace('GMT', '%') # get rid of the gmt string 
-    ends = ends.replace('GMT', '%')
+    altnames = []
+    for i in data[domain]['subjectAltName']:
+        altnames.append(i[1])
+    print (sorted(altnames))
+        
 
-    starts = time.mktime(datetime.strptime(starts, "%b %d %H:%M:%S %Y %%").timetuple())
-    ends = time.mktime(datetime.strptime(ends, "%b %d %H:%M:%S %Y %%").timetuple())
-
-    diff = ends - starts
-
-    print(diff/3600/24) 
 
 if __name__ == '__main__':
-    func('domains.json', 'similarweb.com', 30)
+    func('amazon.com', 'domains.json', 30)
